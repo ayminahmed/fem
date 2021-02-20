@@ -1,1 +1,1 @@
-"Attempting Front-End Mentor challenges" 
+"Attempting Frontend Mentor challenges" 
