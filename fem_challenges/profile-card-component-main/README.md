@@ -1,3 +1,17 @@
+
+--> Comments:
+
+Used magic numbers - bad
+
+If redone, would:
+    
+    * Layout major card sections using flexbox, flex-column
+
+
+
+
+
+
 # Frontend Mentor - Profile card component
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
