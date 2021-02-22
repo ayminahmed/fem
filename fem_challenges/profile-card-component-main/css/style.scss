@@ -1,0 +1,173 @@
+
+
+@import 'config';
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+.assumed-window {
+    //width: 1440px; // box-model
+    //height: 720px;
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: black; // colors & typography
+
+    overflow: hidden; // other
+}
+
+
+.background-layer {
+    position: relative; // positioning
+
+    width: 100vw; // box-model
+    height: 100vh;
+
+    background-color: $dark-cyan; // colors & typography
+
+}
+
+
+.art {
+    position: absolute; // positioning
+}
+
+
+.art-top {
+    right: 52vw; // box-model
+    bottom: 35vh;
+}
+
+
+.art-bot {
+    top: 52vh; // box-model
+    left: 48vw;
+}
+
+
+.card-assumed-dimensions { // 326 x 375
+    position: absolute; // positioning
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 326px; // box-model
+    height: 375px;
+    margin: auto;
+    border-radius: 5%;
+
+    overflow: hidden; // other
+}
+
+
+.card-container {
+    position: relative; // positioning
+
+    img {
+        width: 100%;
+        height: 141px;
+    }
+}
+
+
+.card-info {
+    position: absolute; // positioning
+    top: 141px;
+    
+    width: 100%; // box-model
+    height: 234px;
+
+    background-color: white; // colors & typography
+}
+
+
+.avatar-container {
+    position: absolute; // positioning
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%, -50%);
+
+    box-sizing: content-box; // box-model
+    border: 5px solid white;
+    border-radius: 50%;
+
+    overflow: hidden; // other
+
+    .user-avatar {
+        width: 96px;
+        height: 96px;
+    }
+}
+
+
+.user-details {
+    display: flex; // display
+    flex-direction: column;
+
+    height: 100%;
+    margin-top: 23%;
+}
+
+
+.user-label {
+    display: flex; // display
+    justify-content: center;
+
+    
+    .user-name {
+        margin-right: 10px;
+        font-weight: 700; // colors & typography
+    }
+
+    .user-label {
+        color: $dark-gray;
+        font-size: 0.5rem;
+    }
+}
+
+
+.user-country {
+    margin-top: 10px; // box-model
+    
+    text-align: center; // colors & typography
+    font-size: 0.8rem;
+}
+
+
+.meta-container{
+    display: flex; // display
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: absolute; // positioning
+    bottom: 0;
+
+    width: 100%; // box-model
+    height: 88px;
+    border-top: 1px solid lightgrey;
+    
+    background-color: white; // colors & typography
+}
+
+
+.meta-entry {
+    display: flex; // display
+    flex-direction: column;
+
+    text-align: center; // colors & typography
+}
+
+
+.meta-stat {
+    font-weight: 700; // colors & typography
+}
+
+
+.meta-label {
+    margin-top: 8px; // box-model
+    
+    color: $dark-gray; // colors & typography
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+}
