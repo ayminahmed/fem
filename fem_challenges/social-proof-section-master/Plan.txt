@@ -1,0 +1,7 @@
+
+
+Start with the mobile design, seems straightforward
+
+For desktop version, make it apply on a media query
+
+The page content width is fixed. The margins will take up extra space on the sides.

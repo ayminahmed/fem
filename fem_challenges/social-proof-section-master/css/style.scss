@@ -1,0 +1,159 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+@import 'config';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Spartan', sans-serif;
+    font-size: 93.75%;
+}
+
+
+.temporary-background {
+    position: relative; // positioning
+    
+    //width: 100vw; // box-model
+    //min-height: 100vh;
+    height: 1530px;
+    
+    background-color: #272727; // colors & typography
+}
+
+
+.temporary-screen-width {
+    position: absolute; // positioning
+    left:0; right:0;
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 375px; // box-model
+    //min-height: 10%;
+    height: 1530px;
+
+    background-color: white; // colors & typography
+}
+
+
+.page-container {
+    margin: 80px 24px 0px 24px;
+}
+
+
+.hero-container {
+    text-align: center; // colors & typography
+}
+
+
+.hero-title {
+    line-height: 2.3rem; // colors & typography
+}
+
+
+.hero-description {
+    margin-top: 1.2rem; // box-model
+
+    font-size: 0.9375rem; // colors & typography
+    line-height: 1.75rem;
+    letter-spacing: 0.01rem;
+}
+
+
+.ratings-section {
+    margin-top: 2.4rem;
+}
+
+
+.rating-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    height: 5.133333rem;
+    margin: 1.125rem 0;
+    border-radius: 5%;
+    
+    background-color: $light-grayish-magenta; // colors & typography
+}
+
+
+.rating-stars {
+    img {
+        margin: 0 0.13333rem;
+    }
+}
+
+
+.rating-summary {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+.reviews-section {
+    margin: 3.3333rem 0;
+}
+
+.review-card {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1.125rem 0;
+    padding: 2.7rem 2.1rem 1.8rem 2.1rem;
+    height: 16.533333rem;
+
+    border-radius: 3%;
+    
+    background-color: $very-dark-magenta;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+    img {
+        width: 2.7rem;
+        height: 2.7rem;
+        border-radius: 50%;
+    }
+}
+
+
+.reviewer-info {
+    display: flex;
+}
+
+
+.reviewer-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+
+    margin-left: 1.5rem;
+}
+
+
+.reviewer-status {
+    color: $soft-pink;
+    font-weight: 400;
+}
+
+
+.review-text {
+    margin-top: 1.5rem;
+
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.015rem;
+    word-spacing: 0.05rem;
+}
+
+
