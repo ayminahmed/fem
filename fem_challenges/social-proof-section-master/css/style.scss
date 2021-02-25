@@ -4,6 +4,7 @@
 @import 'config';
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +23,7 @@ html {
     
     //width: 100vw; // box-model
     //min-height: 100vh;
-    height: 1530px;
+    //height: 800px;
     
     background-color: #272727; // colors & typography
 }
@@ -34,9 +35,9 @@ html {
     margin-right: auto;
     margin-left: auto;
 
-    width: 375px; // box-model
+    //width: 1440px; // box-model
     //min-height: 10%;
-    height: 1530px;
+    //height: 800px;
 
     background-color: white; // colors & typography
 }
@@ -102,13 +103,16 @@ html {
     margin: 3.3333rem 0;
 }
 
+
 .review-card {
     display: flex;
     flex-direction: column;
 
-    margin: 1.125rem 0;
-    padding: 2.7rem 2.1rem 1.8rem 2.1rem;
+    //max-width: 350px;
     height: 16.533333rem;
+    margin: 1.125rem 0;
+    //margin: 1.125rem auto;
+    padding: 2.7rem 2.1rem 1.8rem 2.1rem;
 
     border-radius: 3%;
     
@@ -155,5 +159,17 @@ html {
     letter-spacing: 0.015rem;
     word-spacing: 0.05rem;
 }
+
+
+
+
+// side-margins: 167px
+// 167 * 2 = 334 , 1440 - 334 = 1106 (minimum page width)
+// we'll give a minimum side-margin of 1 rem
+// 1rem = 15px, 2rem = 30px. 1106 + 30px = 1136px.
+// page-width: 1106px. breakpoint at 1136px.
+
+@import 'desktop';
+
 
 

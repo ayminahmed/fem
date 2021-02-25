@@ -1,0 +1,73 @@
+
+
+@media only screen and (min-width: 1400px) {
+   .temporary-screen-width { width: 1160px; }
+
+
+   .page-container {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+
+       margin: 130px 45px 0px 45px;
+   }
+
+
+   .hero-container { width: 42%; }
+
+
+   .hero-title {
+       text-align: left;
+       font-size: 3rem;
+       line-height: 3.2rem;
+   }
+
+
+   .hero-description {
+       text-align: left;
+       line-height: 1.6rem;
+   }
+
+
+   .ratings-section {
+       margin-top: 0rem;
+       width: 46.5%;
+    }
+
+
+   .rating-card {
+       flex-direction: row;
+       justify-content: start;
+
+       div { margin-left: 2rem; }
+       width: 29.733333rem;
+       height: 3.666667rem;
+   }
+
+   .rating-2 { margin-left: 3.25rem; }
+   .rating-3 { margin-left: 6.2rem; }
+
+
+   .reviews-section {
+       display: flex;
+
+       width: 100%;
+       margin: 3.45rem 0;
+    }
+
+   .review-card {
+       min-width: 23.4rem;
+       height: 15.8rem;
+   }
+
+
+   .review-2 {
+       margin-top: 2.28rem;
+       margin-left: 1.8rem;
+    }
+
+   .review-3 {
+       margin-top: 3.3rem;
+       margin-left: 2rem;
+   }
+}
