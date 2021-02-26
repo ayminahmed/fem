@@ -1,0 +1,52 @@
+@media screen and (min-width: 1140px) {
+
+    .page-container {
+        padding: 4.4rem 2rem;
+    }
+
+    .banner-container {
+        width: 32rem;
+        margin: auto;
+    }
+    
+    .banner-title {
+        font-size: 2.2rem;
+        letter-spacing: 0.04rem;
+    }
+
+    .banner-heading {
+        font-size: 2.2rem;
+        letter-spacing: 0.05rem;
+    }
+
+    .category-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 3.1rem;
+    }
+
+    .category-card {
+        width: 21.875rem;
+        height: 15.625rem;
+        margin: 1rem;
+
+        img {
+            width: 64px;
+            height: 64px;
+            bottom: 14%
+        }
+    }
+
+    .card-title {
+        margin: 0.2rem;
+    }
+
+    .category-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
