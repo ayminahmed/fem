@@ -1,0 +1,96 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&display=swap');
+@import 'config';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.chrome-tools-layer {
+    width: 100%;
+    height: 500vh;
+
+    background-color: #272727;
+}
+
+
+.page-container {
+    position: relative;
+
+    width: 375px;
+    height: 870px;
+    margin: auto;
+
+    background-color: white;
+}
+
+
+.content-container {
+    
+    width: 100%;
+    height: 722px;
+    padding: 4rem 2rem;
+    margin: auto;
+
+    background-color: white;
+}
+
+
+
+/* ************************************************** */
+/* ************ < invitation container > ************ */
+
+.invitation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    width: 311px;   // ** Responsify
+    height: 267px;  // ** Responsify
+
+    padding: 0.5rem 1.5rem 1rem 1.5rem;
+
+    // background-color: grey;
+}
+
+.invitation-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.02rem;
+}
+
+.invitation-tagline {
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.01rem;
+}
+
+.invitation-description {
+    font-size: 0.85rem;
+    line-height: 1.9;
+    letter-spacing: 0.002rem;
+}
+
+/* *********** < invitation container / > *********** */
+/* ************************************************** */
+
+
+
+/* ************************************************** */
+/* ************* < sign-up container > ************** */
+
+.sign-up-container {
+    width: 311px;
+    height: 228px;
+
+    //background-color: grey;
+}
+
+
+/* ************ < sign-up container / > ************* */
+/* ************************************************** */
