@@ -1,0 +1,61 @@
+@media screen and (min-width: 1440px) {
+
+    /*.page-container {
+        width: 1440px;
+        height: 800px;
+    }*/
+
+    .content-container {
+        padding-right: 5rem;
+    }
+
+    .main-content {
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 1.5rem 0 0 0;
+    }
+
+    .artwork-container {
+        width: 55%;
+        height: 55%;
+    }
+
+    .message-container {
+        width: 40%;
+        margin-top: 4.5rem;
+    }
+
+    .message-heading {
+        text-align: left;
+        font-size: 2.5rem;
+    }
+
+    .message-body {
+        text-align: left;
+        font-size: 1.125rem;
+        line-height: 1.5;
+
+    }
+
+    .btn-register {
+        width: 13rem;
+        height: 4rem;
+        margin: 1rem 0;
+
+        font-size: 1.125rem;
+    }
+
+    .social-container {
+        justify-content: flex-end;
+    }
+
+    .i-container {
+        width: 2.5rem;
+        height: 2.5rem;
+        
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    
+
+}

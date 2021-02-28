@@ -1,5 +1,0 @@
-
-
-mobile:
-
-main padding appears to be 80 at sides
