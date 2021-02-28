@@ -1,0 +1,131 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+// font-family: 'Poppins', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+// font-family: 'Open Sans', sans-serif;
+
+@import 'config';
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.chrome-tools-layer {
+    background-color: #272727;
+}
+
+
+.page-container {
+    // width: 750px;
+    // height: 1600px;
+    margin: auto;
+
+    // background-color: green;
+}
+
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+    padding: 4.5rem;
+
+    background-color: $violet;
+    background-image: url("/images/bg-mobile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 4rem 0;
+}
+
+
+.artwork-container {
+    margin-top: 2rem;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 8rem;
+}
+
+
+.message-heading {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: -0.0141rem;
+}
+
+
+.message-body {
+    margin-top: 1.5rem;
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+
+.btn-register {
+    display: block;
+
+    width: 24rem;
+    height: 5rem;
+    border-radius: 3rem;
+    margin: 3rem auto;
+
+    color: $violet;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.social-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.i-container {
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0.5rem;
+    border: 2px solid white;
+    border-radius: 50%;
+
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3.5rem;
+}

@@ -1,0 +1,8 @@
+
+
+everything text center-aligned, can't really get fixed margins
+and looks like flex shenanigans are going on anyways
+
+but then again, there's not much text to go around
+
+so, we'll start developing right away and use source as truth
