@@ -1,0 +1,62 @@
+
+
+@media screen and (min-width: 635px) {
+    
+    .secondary-containers {
+        display: flex;
+    }
+
+    .sign-up-container,
+    .why-us-container {
+        width: 50%;
+    }
+
+    .page-container {
+        position: unset;
+        padding: 0;
+    }
+
+    .content-container {
+        position: absolute;
+        top:0; right:0; bottom:0; left:0;
+        margin: auto;
+
+        width: 39.6875rem;
+        height: 29.6875rem;
+    }
+
+
+    .invitation-container {
+        padding: 2.5rem;
+    }
+
+    .invitation-title {
+        font-size: 1.5rem;
+        letter-spacing: -0.0225rem;
+    }
+
+    .invitation-tagline {
+        margin-top: 1rem;
+        
+        font-size: 1.1875rem;
+        letter-spacing: -0.0475rem;
+    }
+
+    .invitation-description {
+        margin-top: 0.5rem;
+
+        font-size: 1rem;
+        letter-spacing: -0.0325rem;
+        line-height: 1.625rem;
+    }
+
+
+    .sign-up-container {
+        padding: 2.5rem;
+    }
+
+    .why-us-container {
+        padding: 2.5rem;
+    }
+
+}
