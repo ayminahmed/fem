@@ -1,0 +1,8 @@
+
+
+Cards seem to have similar margins and paddings
+and also, similar test sizes and fonts
+
+So get the paddings and fonts perfectly right
+
+Not responsive, get it pixel perfect
