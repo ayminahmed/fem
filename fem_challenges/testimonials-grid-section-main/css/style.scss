@@ -17,35 +17,43 @@ html {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-.chrome-tools-layer {
+/*.chrome-tools-layer {
     width: 100%;
     height: 1200px;
 
     background-color: #272727;
-}
+}*/
 
 .page-container {
     width: 100%;
-    height: 1200px;
-}
-
-.content-container {
-    width: 375px;
-    height: 800px;
-    margin: auto;
-    
-    padding: 0 1.5rem;
-    padding-top: 10rem; // comfort only
+    // height: 1200px;
+    padding: 4.5rem 1.5rem 3rem;
     background-color: $light-grayish-blue;
 }
 
+
 .card-container {
 
-    width: 100%;
+    margin-bottom: 1.3rem;  // comfort only
+    
     padding: 1.625rem 2rem 2rem;
-    border-radius: 5px;
+    border-radius: 8px;
 
-    background-color: green;
+    background-color: white;
+
+    &:first-child {
+        background-image: url("/images/bg-pattern-quotation.svg");
+        background-repeat: no-repeat;
+        background-position: top 0 right 11%;
+
+        .review-content {
+            padding-right: 1rem;
+        }
+        // how disgusting.
+        // only the first card has an additional padding.
+        // horrible pitfall.
+        // seriously, how awful of a thing that is to do.
+    }
 }
 
 
@@ -56,6 +64,7 @@ html {
 
 
 .user-avatar {
+    border: 1px solid white;
     border-radius: 50%;
     
     overflow: hidden;
@@ -95,6 +104,7 @@ html {
 
 .review-subject {
     margin-top: 1rem;
+    padding-right: 0.1rem;
 
     font-weight: 600;
     font-size: 1.25rem;
@@ -108,4 +118,20 @@ html {
     font-size: 0.8125rem;
     line-height: 1.125rem;
     letter-spacing: -0.002rem;
+}
+
+
+.card-1 {
+    background-color: $moderate-violet;
+    color: white;
+}
+
+.card-2 {
+    background-color: $very-dark-grayish-blue;
+    color: white;
+}
+
+.card-4 {
+    background-color: $very-dark-blackish-blue;
+    color: white;
 }
