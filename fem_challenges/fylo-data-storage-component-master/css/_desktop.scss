@@ -1,0 +1,58 @@
+
+
+@media screen and (min-width: 1200px) {
+
+    .page-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100vh;
+        padding: 18%;
+
+        background: url("/images/bg-desktop.png");
+        background-repeat: no-repeat;
+        background-position: right 0 bottom 0;
+    }
+
+    .fylo-box {
+        position: relative;
+        top: -0.5rem;
+
+        width: 350px;
+        margin-right: 2.5rem;
+    }
+
+    .storage-box {
+        position: relative;
+        top: 0.75rem;
+
+        flex-basis: 350px;
+        flex-grow: 1;
+    }
+
+    .storage-message { text-align: left; }
+
+    .storage-bubble {
+        top: -30%;
+        right: 8%;
+        
+        height: 4rem;
+        transform: none;
+    }
+
+    .storage-bubble::after {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        //border: 10px solid green;
+        border: 1rem solid white;
+        border-bottom: 1rem solid transparent;
+        border-left: 1rem solid transparent;
+        content: '';
+
+        transform: translate(0%, 50%);
+    }
+
+}
